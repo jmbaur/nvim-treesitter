@@ -1266,6 +1266,35 @@ list.diff = {
   filetype = "gitdiff",
 }
 
+list.nu = {
+  install_info = {
+    url = "https://github.com/LhKipp/tree-sitter-nu",
+    files = { "src/parser.c", "src/scanner.c" },
+    branch = "main",
+  },
+  maintainers = {},
+  filetype = "nu",
+}
+
+list.cue = {
+  install_info = {
+    url = "https://github.com/eonpatapon/tree-sitter-cue",
+    files = { "src/parser.c", "src/scanner.c" },
+    branch = "main",
+  },
+  maintainers = {},
+  filetype = "cue",
+}
+
+list.just = {
+  install_info = {
+    url = "https://github.com/IndianBoy42/tree-sitter-just",
+    files = { "src/parser.c", "src/scanner.cc" },
+    branch = "main",
+  },
+  maintainers = { "@IndianBoy42" },
+}
+
 local M = {
   list = list,
   filetype_to_parsername = filetype_to_parsername,
